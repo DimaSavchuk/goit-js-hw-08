@@ -7,8 +7,8 @@ const inputEmailEl = document.querySelector('input');
 const textareaMassageEl = document.querySelector('textarea');
 
 formEl.addEventListener('submit', onFortmSubmit);
-inputEmailEl.addEventListener('input', throttle(onTextWithForm, 1000));
-textareaMassageEl.addEventListener('input', throttle(onTextWithForm, 1000));
+inputEmailEl.addEventListener('input', throttle(onTextWithForm, 500));
+textareaMassageEl.addEventListener('input', throttle(onTextWithForm, 500));
 
 let formData = {
     email: "",
