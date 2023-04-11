@@ -34,7 +34,6 @@ function onFortmSubmit(event) {
     event.preventDefault();
 
     console.log(formData);
-    console.log(`Email: ${formData.email}, Message: ${formData.message}`);
 
     localStorage.removeItem(STORAGE_KEY);
 
